@@ -2,10 +2,8 @@ import requests
 import json
 import time
 from requests.auth import HTTPDigestAuth
+from config import api_key, api_secret
 
-# Binance API key and secret
-api_key = 'OZVbN9ZS2elX9gsIPgFpNVPPHYAwXKjSoE5r3Dcx4vNdGMXJnkVaLVfwcpYSbAQQ'
-api_secret = '12902972'
 
 # Binance API endpoint to get the latest Bitcoin price
 symbol = 'BTCUSDT'
